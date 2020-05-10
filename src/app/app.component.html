@@ -1,0 +1,2 @@
+<app-search-bar (onEnter) = "fetchResults($event)"></app-search-bar>
+<app-search-results [res] = "result" *ngIf = resultsFetched></app-search-results>
